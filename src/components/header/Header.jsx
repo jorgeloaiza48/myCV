@@ -12,7 +12,7 @@ export default function Header() {
           <img src={fotopersonal} alt="foto-personal" className={"headerPhotoImg"}/>
         </div>
         <div className="headerNombres">
-          <h1>JORGE ELIÉCER LOAIZA MUÑOZ</h1>
+          <h1>JORGE ELIÉCER LOAIZA MUÑOZ hgfhfghfg</h1>
           <p>Ingeniero de sistemas y Computación</p>
           <p>Msc. Ingeniería de sistemas y computación</p>
           <p>Desarrollador Web FullStack</p>
