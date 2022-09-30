@@ -14,7 +14,9 @@ function Main() {
                 <li>Python</li>
                 <li>Visual Basic</li>
                 <li>Express</li>
-                <li>Sequelize</li>                
+                <li>Sequelize</li>            
+                <li>SQL</li>                
+                <li>REACT</li>            
             </ul>
         </div>
         <h2>Formación académica universitaria</h2>
