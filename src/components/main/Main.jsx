@@ -16,7 +16,8 @@ function Main() {
                 <li>Express</li>
                 <li>Sequelize</li>            
                 <li>SQL</li>                
-                <li>REACT</li>            
+                <li>REACT</li>         
+                <li>BootStrap</li>    
             </ul>
         </div>
         <h2>Formación académica universitaria</h2>
