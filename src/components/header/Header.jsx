@@ -1,7 +1,7 @@
 import React from 'react'
 import "./header.css"
 import fotopersonal from "./fotopersonal.jpg"
-import {Smartphone,LocationOn,EmailOutlined,ContactMailOutlined,AlternateEmailSharp} from '@material-ui/icons';
+import {Smartphone,LocationOn,EmailOutlined,AlternateEmailSharp} from '@material-ui/icons';
 
 
 
