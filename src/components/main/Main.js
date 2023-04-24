@@ -42,7 +42,7 @@ function Main() {
            <li><p>Programador de cursos complementarios (VisualBasic).</p></li>
            <li><p>Validador de usuarios registrados en senasofiaplus.edu.co (Automatización).</p></li>
            <li><p>Registrador de usuarios en senasofiaplus.edu.co (Automatización).</p></li>
-           <li><p>Programador de cursos complementarios. https://programador-cursos.onrender.com/#/</p></li>
+           <li><p>Programador de cursos complementarios. <a href="https://programador-cursos.onrender.com/#/">https://programador-cursos.onrender.com/#/</a></p></li>
            </ul>
         </div>
         <h2>Formación Complementaria</h2>
