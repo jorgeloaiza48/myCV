@@ -17,7 +17,8 @@ function Main() {
                 <li>Sequelize</li>            
                 <li>SQL</li>                
                 <li>REACT</li>         
-                <li>BootStrap</li>    
+                <li>BootStrap</li>   
+                <li>TailWind</li>    
             </ul>
         </div>
         <h2>Formación académica universitaria</h2>
@@ -32,17 +33,18 @@ function Main() {
           <p><strong>Desarrollador WebFullStack.</strong> Digital House. 6 meses. Tecnologías empleadas: HTML, CSS, JAVASCRIPT, NODEJS, REACT
             SEQUELIZE, EXPRESS, SQL. Proyecto desarrollado: https://myecommerce.onrender.com/</p>
           <p><strong>Docente y asesor del área informática.</strong> Magisterio RISARALDA. 16 meses. Tecnologías empleadas: C++, VISUALBASIC</p>
-          <p><strong>Instructor de informática. (ANÁLISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN, EXCEL AVANZADO, BD, ESTADÍSTICA, MATEMÁTICA, ÁLGEBRA).</strong>SENA. 13 Años. Tecnologías empleadas: PYTHON, VISUALBASIC, SQL, HTML, CSS, JavaScript</p>
+          <p><strong>Instructor de informática. (ANÁLISIS Y DESARROLLO DE SOFTWARE, EXCEL AVANZADO, BD, ESTADÍSTICA, MATEMÁTICA, ÁLGEBRA).</strong>SENA. 13 Años. Tecnologías empleadas: PYTHON, VISUALBASIC, SQL, HTML, CSS, JavaScript, NODE JS, REACTJS, TAILWINDCSS, BOOTSTRAP</p>
           <p><strong></strong></p>              
         </div>
         <h2>Proyectos desarrollados</h2>
         <div className="cvMain">
           <ul>
-           <li><p>Tienda virtual. https://myecommerce.onrender.com/</p></li>
+           <li><p>Tienda virtual. <a href='https://myecommerce.onrender.com/'>https://myecommerce.onrender.com/</a></p></li>
            <li><p>Programador de cursos complementarios (VisualBasic).</p></li>
            <li><p>Validador de usuarios registrados en senasofiaplus.edu.co (Automatización).</p></li>
            <li><p>Registrador de usuarios en senasofiaplus.edu.co (Automatización).</p></li>
            <li><p>Programador de cursos complementarios. <a href="https://programador-cursos.onrender.com/#/">https://programador-cursos.onrender.com/#/</a></p></li>
+           <li><p>Entorno prácticas concurso DIAN        <a href='https://simulacrosdian.onrender.com/'>https://simulacrosdian.onrender.com/</a></p></li>
            </ul>
         </div>
         <h2>Formación Complementaria</h2>
