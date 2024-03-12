@@ -1,7 +1,10 @@
 import React from 'react'
 import "./header.css"
 import fotopersonal from "./fotopersonal.jpg"
-import {Smartphone,LocationOn,EmailOutlined,AlternateEmailSharp} from '@material-ui/icons';
+import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from '@mui/icons-material/Email';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 
 
@@ -19,10 +22,10 @@ export default function Header() {
         </div>
         <div className="headerContacto">
           <ul className='contactList'>
-              <li className='contactListItem'><p><Smartphone/></p>    <p>(+57) 3122727084</p></li>           
-              <li className='contactListItem'><p><LocationOn/></p>    <p>Pereira / Risaralda - Colombia</p></li>
-              <li className='contactListItem'><p><EmailOutlined/></p> <p>jelm48@misena.edu.co</p></li>  
-              <li className='contactListItem'><p><AlternateEmailSharp/></p> <p>jorge.loaiza@utp.edu.co</p></li>            
+              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3122727084</p></li>           
+              <li className='contactListItem'><p><LocationOnIcon/></p>    <p>Pereira / Risaralda - Colombia</p></li>
+              <li className='contactListItem'><p><EmailIcon/></p> <p>jelm48@misena.edu.co</p></li>  
+              <li className='contactListItem'><p><AlternateEmailIcon/></p> <p>jorge.loaiza@utp.edu.co</p></li>            
           </ul>
         </div>       
     </div>
