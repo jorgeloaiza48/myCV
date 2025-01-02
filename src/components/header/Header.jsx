@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className='header'>
         <div className="headerPhoto">
-          <img src={fotopersonal} alt="foto-personal" className={"headerPhotoImg"}/>
+          <img src={fotopersonal} alt="foto-personal" className="headerPhotoImg"/>
         </div>
         <div className="headerNombres">
           <h1>JORGE ELIÉCER LOAIZA MUÑOZ</h1>
@@ -22,9 +22,10 @@ export default function Header() {
         </div>
         <div className="headerContacto">
           <ul className='contactList'>
-              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3122727084</p></li>           
+              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3122727084</p></li>      
+              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3162565148</p></li>           
               <li className='contactListItem'><p><LocationOnIcon/></p>    <p>Pereira / Risaralda - Colombia</p></li>
-              <li className='contactListItem'><p><EmailIcon/></p> <p>jelm48@misena.edu.co</p></li>  
+              <li className='contactListItem'><p><EmailIcon/></p> <p>jelm48@hotmail.com</p></li>  
               <li className='contactListItem'><p><AlternateEmailIcon/></p> <p>jorge.loaiza@utp.edu.co</p></li>            
           </ul>
         </div>       
