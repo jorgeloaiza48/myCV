@@ -39,7 +39,7 @@ function Main() {
         <ul>
           <li><p>Ingeniería de Sistemas y Computación 2006. Universidad dfsdfsdsTecnológica de Pereira.</p></li>
           <li><p>Especialización en Didáctica de la Docencia virtual 2017. gfgfdgdfFundación Universitaria del Área Andina. </p></li>
-          <li><p>Maestría en Ingeniería de Sistemas y Computación2020. Universidad Tecnológica de Pereira.</p></li>
+          <li><p>Maestría en Ingeniería desdfds Sistemas y Computación2020. Universidad Tecnológica de Pereira.</p></li>
           <li><p>Diplomado en docencia virtual. Politécnico de Colombia 2015.</p></li>
         </ul>
       </div>
