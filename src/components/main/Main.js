@@ -1,25 +1,38 @@
 import React from 'react'
 import "./main.css"
+import htmlicon from "./htmlicon.ico"
+import cssicon from "./cssicon.ico"
+import jsicon from "./javascript_icon.ico"
+import nodejsicon from "./nodeJSicon.ico"
+import pythonicon from "./pythonicon.ico"
+import visualbasic from "./visual-basic.png"
+import expressicon from "./expressicon.png"
+import sequelize from "./sequelize.ico"
+import sql from "./sqlicon.ico"
+import react from "./react_icon.ico"
+import bootstrap from "./bootstrap.ico"
+import tailwind from "./tailwind_icon.ico"
+
 
 function Main() {
   return (
     <div className='main'>
       <h2>Habilidades</h2>
       <div className="cvMain">
-        <ul className='ListaHabilidadesMain'>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>NodeJS</li>
-          <li>Python</li>
-          <li>Visual Basic</li>
-          <li>Express</li>
-          <li>Sequelize</li>
-          <li>SQL</li>
-          <li>REACT</li>
-          <li>BootStrap</li>
-          <li>TailWind</li>
-        </ul>
+        <div className='ListaHabilidadesMain'>
+          <img src={htmlicon} alt='icon' />
+          <img src={cssicon} alt='icon' />
+          <img src={jsicon} alt='icon'/>
+          <img src={nodejsicon} alt='icon'/>
+          <img src={pythonicon} alt='icon'/>
+          <img src={visualbasic} alt='icon'/>
+          <img src={expressicon} alt='icon'/>
+          <img src={sequelize} alt='icon'/>
+          <img src={sql} alt='icon'/>
+          <img src={react} alt='icon'/>
+          <img src={bootstrap} alt='icon'/>
+          <img src={tailwind} alt='icon'/>
+        </div>
       </div>
       <h2>Formación académica universitaria</h2>
       <div className="cvMain">
