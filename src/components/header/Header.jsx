@@ -18,6 +18,7 @@ export default function Header() {
           <h1>JORGE ELIÉCER LOAIZA MUÑOZ</h1>
           <p>Ingeniero de sistemas y Computación</p>
           <p>Msc. Ingeniería de sistemas y computación</p>
+          <p>Especialista en didáctica de la docencia virtual</p>
           <p>Desarrollador Web FullStack</p>
         </div>
         <div className="headerContacto">

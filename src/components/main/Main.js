@@ -34,14 +34,12 @@ function Main() {
           <img src={tailwind} alt='icon'/>
         </div>
       </div>
-      <h2>Formación académica universitaria</h2>
-      <div className="cvMain">
-        <ul>
-          <li><p>Ingeniería de Sistemas y Computación 2006. Universidad Tecnológica de Pereira.</p></li>
-          <li><p>Especialización en Didáctica de la Docencia virtual 2017. gfgfdgdfFundación Universitaria del Área Andina. </p></li>
-          <li><p>Maestría en Ingeniería desdfds Sistemas y Computación2020. Universidad Tecnológica de Pereira.</p></li>
-          <li><p>Diplomado en docencia virtual. Politécnico de Colombia 2015.</p></li>
-        </ul>
+      <h2>Formación académica</h2>
+      <div className="cvMain">        
+          <p>Ingeniería de Sistemas y Computación 2006. Universidad Tecnológica de Pereira.</p> 
+          <p>Especialización en Didáctica de la Docencia virtual 2017. Fundación Universitaria del Área Andina. </p> 
+          <p>Maestría en Ingeniería Sistemas y Computación2020. Universidad Tecnológica de Pereira.</p>
+          <p>Diplomado en docencia virtual. Politécnico de Colombia 2015.</p>     
       </div>
       <h2>Experiencia laboral</h2>
       <div className="cvMain">
