@@ -12,43 +12,165 @@ import sql from "./sqlicon.ico"
 import react from "./react_icon.ico"
 import bootstrap from "./bootstrap.ico"
 import tailwind from "./tailwind_icon.ico"
+import oracleCertification from "./oracleCertification.png"
 
 
 function Main() {
   return (
-    <div className='main'>
-      <h2>Habilidades</h2>
+    <div className='container-fluid'>
+      <h2 className='mt-5'>Habilidades</h2>
       <div className="cvMain">
-        <div className='ListaHabilidadesMain'>
+        <div className='d-flex justify-content-around p-3'>
           <img src={htmlicon} alt='icon' />
           <img src={cssicon} alt='icon' />
-          <img src={jsicon} alt='icon'/>
-          <img src={nodejsicon} alt='icon'/>
-          <img src={pythonicon} alt='icon'/>
-          <img src={visualbasic} alt='icon'/>
-          <img src={expressicon} alt='icon'/>
-          <img src={sequelize} alt='icon'/>
-          <img src={sql} alt='icon'/>
-          <img src={react} alt='icon'/>
-          <img src={bootstrap} alt='icon'/>
-          <img src={tailwind} alt='icon'/>
+          <img src={jsicon} alt='icon' />
+          <img src={nodejsicon} alt='icon' />
+          <img src={pythonicon} alt='icon' />
+          <img src={visualbasic} alt='icon' />
+          <img src={expressicon} alt='icon' />
+          <img src={sequelize} alt='icon' />
+          <img src={sql} alt='icon' />
+          <img src={react} alt='icon' />
+          <img src={bootstrap} alt='icon' />
+          <img src={tailwind} alt='icon' />
         </div>
       </div>
-      <h2>Formación académica</h2>
-      <div className="cvMain">        
-          <p>Ingeniería de Sistemas y Computación 2006. Universidad Tecnológica de Pereira.</p> 
-          <p>Especialización en Didáctica de la Docencia virtual 2017. Fundación Universitaria del Área Andina. </p> 
-          <p>Maestría en Ingeniería Sistemas y Computación2020. Universidad Tecnológica de Pereira.</p>
-          <p>Diplomado en docencia virtual. Politécnico de Colombia 2015.</p>     
+
+
+      <h2 className='mt-5'>Formación académica</h2>
+      <section class="bsb-timeline-3 bg-light py-3 py-md-5 py-xl-8">
+        <div class="">
+          <div class="row justify-content-center">
+            <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+
+              <ul class="timeline">
+                <li class="timeline-item left">
+                  <div class="timeline-body">
+                    <div class="timeline-content timeline-indicator">
+                      <div class="card border-0 shadow">
+                        <div class="card-body p-xl-4">
+                          <h5 class="card-subtitle text-secondary mb-1">2006</h5>
+                          <h2 class="card-title mb-3">Ingeniería de Sistemas y Computación</h2>
+                          <p class="card-text m-0">Universidad Tecnológica de Pereira.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-item right">
+                  <div class="timeline-body">
+                    <div class="timeline-content timeline-indicator">
+                      <div class="card border-0 shadow">
+                        <div class="card-body p-xl-4">
+                          <h5 class="card-subtitle text-secondary mb-1">2015</h5>
+                          <h2 class="card-title mb-3">Diplomado en docencia virtual.</h2>
+                          <p class="card-text m-0">Politécnico de Colombia 2015.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-item left">
+                  <div class="timeline-body">
+                    <div class="timeline-content timeline-indicator">
+                      <div class="card border-0 shadow">
+                        <div class="card-body p-xl-4">
+                          <h5 class="card-subtitle text-secondary mb-1">2017</h5>
+                          <h2 class="card-title mb-3">Especialización en Didáctica de la Docencia virtual.</h2>
+                          <p class="card-text m-0">Fundación Universitaria del Área Andina.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-item right">
+                  <div class="timeline-body">
+                    <div class="timeline-content timeline-indicator">
+                      <div class="card border-0 shadow">
+                        <div class="card-body p-xl-4">
+                          <h5 class="card-subtitle text-secondary mb-1">2020</h5>
+                          <h2 class="card-title mb-3">Maestría en Ingeniería Sistemas y Computación2020</h2>
+                          <p class="card-text m-0">Universidad Tecnológica de Pereira.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2 className='mt-5'>Certificaciones</h2>
+      <div className='cvMain'>
+        <img src={oracleCertification} className="mx-auto d-block img-fluid" alt=''/>
       </div>
-      <h2>Experiencia laboral</h2>
-      <div className="cvMain">
-        <p><strong>Desarrollador WebFullStack.</strong> Digital House. 6 meses. Tecnologías empleadas: HTML, CSS, JAVASCRIPT, NODEJS, REACT
-          SEQUELIZE, EXPRESS, SQL. Proyecto desarrollado: https://myecommerce.onrender.com/</p>
-        <p><strong>Docente y asesor del área informática.</strong> Magisterio RISARALDA. 16 meses. Tecnologías empleadas: C++, VISUALBASIC</p>
-        <p><strong>Instructor de informática. (ANÁLISIS Y DESARROLLO DE SOFTWARE, EXCEL AVANZADO, BD, ESTADÍSTICA, MATEMÁTICA, ÁLGEBRA).</strong>SENA. 14 Años. Tecnologías empleadas: PYTHON, VISUALBASIC, SQL, HTML, CSS, JavaScript, NODE JS, REACTJS, TAILWINDCSS, BOOTSTRAP</p>
-        <p><strong></strong></p>
+
+
+      <h2 className='mt-5'>Experiencia laboral</h2>
+      
+ 
+
+<section class="bsb-timeline-1 py-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-8 col-xl-6">
+
+        <ul class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-body">
+              <div class="timeline-content">
+                <div class="card border-0">
+                  <div class="card-body p-0">
+                    <h5 class="card-subtitle text-secondary mb-1">2007-2008</h5>
+                    <h2 class="card-title mb-3">Secretaría departamental de RISARALDA <br></br>Docente Asesor del área informática</h2>
+                    <p class="card-text m-0">Tecnologías empleadas: C++, VISUALBASIC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-body">
+              <div class="timeline-content">
+                <div class="card border-0">
+                  <div class="card-body p-0">
+                    <h5 class="card-subtitle text-secondary mb-1">2009-2024</h5>
+                    <h2 class="card-title mb-3">SENA<br></br>Instructor de informática(ANÁLISIS Y DESARROLLO DE SOFTWARE, EXCEL AVANZADO, BD, ESTADÍSTICA, MATEMÁTICA, ÁLGEBRA)</h2>
+                    <p class="card-text m-0">Tecnologías empleadas: PYTHON, VISUALBASIC, SQL, HTML, CSS, JavaScript, NODE JS, REACTJS, TAILWINDCSS, BOOTSTRAP</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-body">
+              <div class="timeline-content">
+                <div class="card border-0">
+                  <div class="card-body p-0">
+                    <h5 class="card-subtitle text-secondary mb-1">2022</h5>
+                    <h2 class="card-title mb-3">Digital House<br></br>Desarrollador WebFullStack</h2>
+                    <p class="card-text m-0">Tecnologías empleadas: HTML, CSS, JAVASCRIPT, NODEJS, REACT
+                    SEQUELIZE, EXPRESS, SQL. Proyecto desarrollado: https://myecommerce.onrender.com/</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>          
+        </ul>
+
       </div>
+    </div>
+  </div>
+</section>
+
+
+
+
       <h2>Proyectos desarrollados</h2>
       <div className="cvMain">
         <ul>

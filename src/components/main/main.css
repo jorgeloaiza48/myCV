@@ -21,13 +21,6 @@
     width: 95%;
 }
 
-.ListaHabilidadesMain{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-
 
 @media(min-width: 768px) {
 
@@ -36,6 +29,5 @@
         margin: auto;
         width: 80%;
     }
-
-
+    
 }
