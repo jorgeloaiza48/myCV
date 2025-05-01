@@ -18,7 +18,7 @@ import oracleCertification from "./oracleCertification.png"
 function Main() {
   return (
     <div className='container-fluid'>
-      <hr></hr>
+      <hr className='custom'></hr>
       <h2 className='mt-5'>Habilidades</h2>
       <div className="cvMain">
         <div className='d-flex justify-content-around p-3 flex-wrap'>
@@ -37,7 +37,7 @@ function Main() {
         </div>
       </div>
 
-<hr></hr>
+      <hr className='custom'></hr>
       <h2 className='mt-5'>Formación académica</h2>
       <section class="bsb-timeline-3 bg-light py-3 py-md-5 py-xl-8">
         <div class="">
@@ -103,7 +103,7 @@ function Main() {
           </div>
         </div>
       </section>
-      <hr></hr>
+      <hr className='custom'></hr>
 
       <h2 className='mt-5'>Certificaciones</h2>
       <div className='cvMain'>
@@ -111,7 +111,7 @@ function Main() {
       </div>
 
 
-<hr></hr>
+      <hr className='custom'></hr>
       <h2 className='mt-5'>Experiencia laboral</h2>
       <section class="bsb-timeline-1 py-5 py-xl-8">
         <div class="container">
@@ -170,7 +170,7 @@ function Main() {
 
 
 
-<hr></hr>
+      <hr className='custom'></hr>
       <h2 className='mt-4 mb-4'>Proyectos desarrollados</h2>
       {/* https://bestjquery.com/tutorial/timeline/demo175/ */}
       <div class="container">
@@ -256,34 +256,189 @@ function Main() {
           </div>
         </div>
       </div>
-
+      <hr className='custom'></hr>
 
       <h2>Formación Complementaria</h2>
-      <div className="cvMain">
-        <h4>SENA</h4>
-        <ul>
-          <li>ESTRATEGIAS PARA LA ORIENTACIÓN DE PROCESOS DE FORMACIÓN EN AMBIENTES VIRTUALES DE APRENDIZAJE</li><br></br>
-          <li>FUNDAMENTACIÓN DE LA FORMACIÓN PROFESIONAL INTEGRAL CON BASE EN COMPETENCIAS.</li> <br></br>
-          <li>ESTRATEGIAS Y MEDIOS PARA EL APRENDIZAJE DE TECNOLOGÍAS</li><br></br>
-          <li>FORMACIÓN POR PROYECTOS</li><br></br>
-          <li>ESTRATEGIAS PARA LA ORIENTACIÓN DE PROCESOS DE FORMACIÓN EN AMBIENTES VIRTUALES DE APRENDIZAJE</li><br></br>
-          <li>CONTROL INTERNO EN LOS SISTEMAS INFORMÁTICOS</li><br></br>
-          <li>REDES Y SEGURIDAD</li><br></br>
-          <li>FORMACION EN AMBIENTES VIRTUALES DE APRENDIZAJE</li><br></br>
-        </ul>
-        <h4>UNIVERSIDAD TECNOLÓGICA DE PEREIRA</h4>
-        <ul>
-          <li>GESTIÓN DE LA CALIDAD EN PROYECTOS</li><br></br>
-        </ul>
-        <h4>STANFORD UNIVERSITY COURSERA</h4>
-        <ul>
-          <li>MACHINE LEARNING</li><br></br>
-        </ul>
-        <h4>MICROSOFT</h4>
-        <ul>
-          <li>AZ-900: MICROSOFT AZURE FUNDAMENTALS</li><br></br>
-        </ul>
+      <div class="container bootstrap snippets bootdeys">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">ESTRATEGIAS PARA LA ORIENTACIÓN DE PROCESOS DE FORMACIÓN EN AMBIENTES VIRTUALES DE APRENDIZAJE</p>
+                </div>
+              </div> {/* <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">FUNDAMENTACIÓN DE LA FORMACIÓN PROFESIONAL INTEGRAL CON BASE EN COMPETENCIAS.</p>
+                </div>
+              </div> {/* <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="yellow" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">ASESORÍA PARA EL APRENDIZAJE DE PROCESOS TECNOLÓGICOS.</p>
+                </div>
+              </div> {/* <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="brown" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">ESTRATEGIAS Y MEDIOS PARA EL APRENDIZAJE DE TECNOLOGÍAS.</p>
+                </div>
+              </div> {/* <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="purple" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">FORMACIÓN POR PROYECTOS.</p>
+                </div>
+              </div> {/* <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Servicio Nacional de Aprendizaje SENA</h4>
+                  <p class="description">CONTROL INTERNO EN LOS SISTEMAS INFORMÁTICOS</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Universidad Tecnológica de Pereira</h4>
+                  <p class="description">GESTIÓN DE LA CALIDAD EN PROYECTOS</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="yellow" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Stanford University Coursera</h4>
+                  <p class="description">MACHINE LEARNING</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="brown" data-radius="none">
+                <div class="content">
+                  <h4 class="title">University of Michigan – Coursera</h4>
+                  <p class="description">Applied Data Science with Python</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="orange" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Coursera Project Network</h4>
+                  <ul>
+                    <li class="description">COVID19 Data Analysis Using Python</li>
+                    <li class="description">Data Visualization with Plotly Express</li>
+                    <li class="description">Data visualization with python</li>
+                    <li class="description">Plots (Graphics) for Data Science</li>
+                    <li class="description">Processing Data with python</li>
+                  </ul>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="brown" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Intelligent Training</h4>
+                  <p class="description">Microsoft Azure Fundamentals AZ-900</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="purple" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Google Coursera</h4>
+                  <p class="description">Seguridad informática: defensa contra las artes
+                    oscuras digitales</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Universidad Nacional Autónoma de México (Coursera)</h4>
+                  <p class="description">Pensamiento Científico</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                <div class="content">
+                  <h4 class="title">Rice University (Coursera)</h4>
+                  <p class="description">Python Data Visualization</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+              <div class="card card-just-text" data-background="color" data-color="yellow" data-radius="none">
+                <div class="content">
+                  <h4 class="title">University of California, Irvine (Coursera)</h4>
+                  <p class="description">Foundations of Virtual Instruction</p>
+                </div>
+              </div>{/*  <!-- end card --> */}
+            </div>
+          </div>
+
+        </div>
       </div>
+
+
 
     </div>
   )
