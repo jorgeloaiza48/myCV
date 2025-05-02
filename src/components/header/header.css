@@ -30,7 +30,7 @@
     flex-direction: column;
     flex: 1;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 .headerPhoto{   
     /* border: solid 2px gainsboro; */

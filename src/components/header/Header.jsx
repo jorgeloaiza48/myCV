@@ -10,26 +10,27 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 export default function Header() {
   return (
-    <div className='header'>
-        <div className="headerPhoto">
-          <img src={fotopersonal} alt="foto-personal" className="headerPhotoImg"/>
+    <div className='container'>
+      <div className='header bg-orange'>
+        <div className="">
+          <img src={fotopersonal} alt="foto-personal" className="headerPhotoImg" />
         </div>
         <div className="headerNombres">
           <h1>JORGE ELIÉCER LOAIZA MUÑOZ</h1>
           <p>Ingeniero de sistemas y Computación</p>
-          <p>Msc. Ingeniería de sistemas y computación</p>
-          <p>Especialista en didáctica de la docencia virtual</p>
-          <p>Desarrollador Web FullStack</p>
+          <p>Msc. Ingeniería de sistemas y computación</p>         
+          <p>Desarrollador Web FullStack - Analista de Bases de Datos</p>
         </div>
         <div className="headerContacto">
           <ul className='contactList'>
-              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3122727084</p></li>      
-              <li className='contactListItem'><p><SmartphoneIcon/></p>    <p>(+57) 3162565148</p></li>           
-              <li className='contactListItem'><p><LocationOnIcon/></p>    <p>Pereira / Risaralda - Colombia</p></li>
-              <li className='contactListItem'><p><EmailIcon/></p> <p>jelm48@hotmail.com</p></li>  
-              <li className='contactListItem'><p><AlternateEmailIcon/></p> <p>jorge.loaiza@utp.edu.co</p></li>            
+            <li className='contactListItem'><p><SmartphoneIcon /></p>    <p>(+57) 3122727084</p></li>
+            <li className='contactListItem'><p><SmartphoneIcon /></p>    <p>(+57) 3162565148</p></li>
+            <li className='contactListItem'><p><LocationOnIcon /></p>    <p>Pereira / Risaralda - Colombia</p></li>
+            <li className='contactListItem'><p><EmailIcon /></p>         <p>jelm48@hotmail.com</p></li>
+            <li className='contactListItem'><p><AlternateEmailIcon /></p> <p>jorge.loaiza@utp.edu.co</p></li>
           </ul>
-        </div>       
+        </div>
+      </div>
     </div>
   )
 }
